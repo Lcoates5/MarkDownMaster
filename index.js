@@ -2,6 +2,7 @@
 import inquirer from 'inquirer';
 import fs, { write } from 'fs';
 import generateMarkdown from './utils/generateMarkdown.js';
+import { type } from 'os';
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -39,7 +40,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "Please enter the license for your project.",
-    choices: ["MIT", "GNU", "Apache"]
+    choices: ["MIT", "GNU", "Apache", "None"]
 },
 {
     type: "input",
@@ -59,8 +60,22 @@ const questions = [
 {
     type: "input",
     name: "tests",
-    message: "Please enter the tests for your project, with applicaple tests."
+    message: "Please enter any applicable tests for your project."
 },
+{  type: "input",
+    name: "questions",
+    message: "Please enter any questions you may have about your project."
+},
+{
+    type: "input",
+    name: "github",
+    message: "Please enter your GitHub username."
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "Please enter your email address."
+  }
 ];
 
 // TODO: Create a function to write README file

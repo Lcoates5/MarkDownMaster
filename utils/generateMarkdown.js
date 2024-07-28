@@ -35,6 +35,10 @@ function generateMarkdown(data) {
   * [Usage](#usage)
   * [Credits](#credits)
   * [Badges](#badges)
+  * [Features](#features)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
   ## Installation
   ${data.installation}
@@ -56,9 +60,11 @@ function generateMarkdown(data) {
 
   ## Tests
   ${data.tests}
+
+  ## Questions
+  If you have any questions about the repo, open an issue or contact me directly at [${data.email}](mailto:${data.email}). 
+  You can find more of my work at [${data.github}](https://github.com/${data.github}).
   `;
-
-
 };
 
 export default generateMarkdown;
