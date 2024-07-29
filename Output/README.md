@@ -1,8 +1,8 @@
-# Sample Title
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+#  Sample Title
+  ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
   ## Description
-  Test Description
+  Description sample
 
   ## Table of Contents
   * [Installation](#installation)
@@ -18,24 +18,27 @@
   Test
 
   ## Usage
-  Test instructions
+  Test
+
+  ## License
+  Apache
 
   ## Credits
-  NA
+  Test
 
   ## Badges
-  NA
+  Test
   
   ## Features
-  NA
+  Test
 
   ## Contributing
-  NA
+  Test
 
   ## Tests
-  NA
+  Test
 
   ## Questions
-  If you have any questions about the repo, open an issue or contact me directly at [lspassey@gmail.com](mailto:lspassey@gmail.com). 
-  You can find more of my work at [lcoates](https://github.com/lcoates).
+  If you have any questions about the repo, open an issue or contact me directly at [Test](mailto:Test). 
+  You can find more of my work at [Test](https://github.com/Test).
   
