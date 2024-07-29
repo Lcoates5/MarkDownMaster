@@ -1,8 +1,7 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
-import fs, { write } from 'fs';
+import fs from 'fs';
 import generateMarkdown from './utils/generateMarkdown.js';
-import { type } from 'os';
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -16,11 +15,6 @@ const questions = [
     name: "description",
     message: "Please enter a description of your project."
 },
-// {
-//     type: "screenshot",
-//     name: "screenshot",
-//     message: "Please enter a screenshot of your project using the relative path."
-// },
 {
     type: "input",
     name: "installation",

@@ -1,20 +1,24 @@
-# readME.md generator
+# Sample Title
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
-  Test description of my project
+  Test Description
 
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
   * [Badges](#badges)
+  * [Features](#features)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
   ## Installation
-  Testing 
+  Test
 
   ## Usage
-  Here are some sample instructions
+  Test instructions
 
   ## Credits
   NA
@@ -23,11 +27,15 @@
   NA
   
   ## Features
-  No features to add currently
+  NA
 
   ## Contributing
   NA
 
   ## Tests
-  This is a test
+  NA
+
+  ## Questions
+  If you have any questions about the repo, open an issue or contact me directly at [lspassey@gmail.com](mailto:lspassey@gmail.com). 
+  You can find more of my work at [lcoates](https://github.com/lcoates).
   
